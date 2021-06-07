@@ -1,0 +1,42 @@
+/* COLOR PALETTE
+
+
+*/
+
+/* Fonts 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #a3d2ca;
+  font-family: "Rubik", sans-serif;
+}
+
+.imgWelcomeCats {
+  display: block;
+  margin: 0 auto;
+  max-height: auto;
+  max-width: 10%;
+}
