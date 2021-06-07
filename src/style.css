@@ -1,5 +1,9 @@
-/* COLOR PALETTE
-
+/* COLOR PALETTE 
+https://colorhunt.co/palette/201843 - vintage turquoise
+cream: #e8ded2
+light turq: #a3d2ca
+med turq: #5eaaa8
+dark turq: #056676
 
 */
 
@@ -8,7 +12,20 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Rubik', sans-serif;
 */
 
+body {
+  background: radial-gradient(
+    592px at 48.2% 50%,
+    rgba(255, 255, 249, 0.6) 0%,
+    rgb(160, 199, 254) 74.6%
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
+  color: #056676;
   font-family: "Rubik", sans-serif;
   font-size: 5rem;
   font-weight: 700;
@@ -17,6 +34,7 @@ h1 {
 }
 
 h2 {
+  color: #5eaaa8;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin-top: 0px;
@@ -26,11 +44,13 @@ h2 {
 h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
+  padding: 50px;
   text-align: center;
 }
 
 .navbar {
-  background-color: #a3d2ca;
+  background-color: transparent;
+  border: solid 1px #f9fcfc;
   font-family: "Rubik", sans-serif;
 }
 
