@@ -16,7 +16,7 @@ body {
   background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
+    #94b5c0 74.6%
   );
   height: 100%;
   margin: 0;
@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-  color: #5eaaa8;
+  color: #350b40;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin-top: 0px;
@@ -46,6 +46,10 @@ h3 {
   font-size: 15px;
   padding: 50px;
   text-align: center;
+}
+
+ul {
+  list-style: none;
 }
 
 .navbar {
