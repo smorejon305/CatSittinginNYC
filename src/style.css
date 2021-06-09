@@ -5,6 +5,10 @@ light turq: #a3d2ca
 med turq: #5eaaa8
 dark turq: #056676
 pink: #FBDBEF
+
+https://color.adobe.com/search?q=pet&t=term#
+background yellow: f2efdf
+dark turq h1: 03a6a6
 */
 
 /* Fonts 
@@ -13,7 +17,7 @@ font-family: 'Rubik', sans-serif;
 */
 
 body {
-  background-color: #f2efdf;
+  background-color: black;
 }
 
 h1 {
@@ -31,14 +35,16 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 h3 {
+  color: #d94141;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  padding: 50px;
+  padding: 0px;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
