@@ -13,11 +13,11 @@ font-family: 'Rubik', sans-serif;
 */
 
 body {
-  background-color: #8e9775;
+  background-color: #f2efdf;
 }
 
 h1 {
-  color: #4a503d;
+  color: #03a6a6;
   font-family: "Rubik", sans-serif;
   font-size: 5rem;
   font-weight: 700;
@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  color: #faf2da;
+  color: #d94141;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin-top: 30px;
@@ -52,12 +52,12 @@ ul {
   font-family: "Montserrat", sans-serif;
 }
 
-.imgPinkDog {
+.welcomeImages {
   border-radius: 10px;
   box-shadow: #4a503d 5px 5px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
   max-height: auto;
-  max-width: 25%;
+  max-width: 100%;
 }
