@@ -9,7 +9,25 @@ pink: #FBDBEF
 https://color.adobe.com/search?q=pet&t=term#
 background yellow: f2efdf
 dark turq h1: 03a6a6
-*/
+
+/* Color Theme Swatches in Hex */
+.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-1-hex {
+  color: #03a6a6;
+}
+.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-2-hex {
+  color: #f2efdf;
+}
+.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-3-hex {
+  color: #f2b05e;
+}
+.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-4-hex {
+  color: #f29985;
+}
+.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-5-hex {
+  color: #d94141;
+}
+
+/*/
 
 /* Fonts 
 font-family: 'Montserrat', sans-serif;
@@ -31,7 +49,7 @@ h1 {
 }
 
 h2 {
-  color: #d94141;
+  color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   margin-top: 30px;
@@ -40,7 +58,7 @@ h2 {
 }
 
 h3 {
-  color: #d94141;
+  color: whitesmoke;
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   padding: 0px;
@@ -49,6 +67,7 @@ h3 {
 }
 
 ul {
+  color: whitesmoke;
   list-style: none;
 }
 
