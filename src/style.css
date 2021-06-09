@@ -67,13 +67,10 @@ h3 {
 }
 
 ul {
-  color: whitesmoke;
   list-style: none;
 }
 
 .navbar {
-  background-color: transparent;
-  color: #faf2da;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -85,4 +82,10 @@ ul {
   margin-top: 20px;
   max-height: auto;
   max-width: 100%;
+}
+
+.services {
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
 }
