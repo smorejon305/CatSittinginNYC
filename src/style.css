@@ -6,6 +6,10 @@ med turq: #5eaaa8
 dark turq: #056676
 pink: #FBDBEF
 
+showercapPink - #FC93CF
+bunnyYellow - #F6E680
+catmassagePink - #FDE4F7
+
 https://color.adobe.com/search?q=pet&t=term#
 background yellow: f2efdf
 dark turq h1: 03a6a6
@@ -88,4 +92,22 @@ ul {
   display: block;
   margin: 0 auto;
   max-width: 50%;
+}
+
+.darkPink {
+  background-color: #fc93cf;
+  max-width: 100%;
+  height: 500px;
+}
+
+.paleYellow {
+  background-color: #f6e680;
+  max-width: 100%;
+  height: 500px;
+}
+
+.palePink {
+  background-color: #fde4f7;
+  max-width: 100%;
+  height: 500px;
 }
