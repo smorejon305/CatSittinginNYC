@@ -16,6 +16,12 @@
   --ff-accent: "Rubik", sans-serif;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   font-family: var(--ff-primary);
   font-size: 1.5rem;
@@ -171,15 +177,11 @@ li {
 }
 
 .aboutMePhoto {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-
-  height: auto;
 }
 
 h4 {
   font-style: 900;
+  text-align: center;
   text-decoration: underline;
 }
 
