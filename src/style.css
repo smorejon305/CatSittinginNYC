@@ -170,6 +170,14 @@ li {
   text-align: left;
 }
 
+.aboutMePhoto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+
+  height: auto;
+}
+
 h4 {
   font-style: 900;
   text-decoration: underline;
