@@ -1,72 +1,52 @@
-/* COLOR PALETTE 
-https://colorhunt.co/palette/201843 - vintage turquoise
-cream: #e8ded2
-light turq: #a3d2ca
-med turq: #5eaaa8
-dark turq: #056676
-pink: #FBDBEF
+:root {
+  --clr-pink-200: #fde4f7;
+  --clr-pink-400: #fc93cf;
 
-showercapPink - #FC93CF
-bunnyYellow - #F6E680
-catmassagePink - #FDE4F7
+  --clr-yellow-400: #f6e680;
 
-https://color.adobe.com/search?q=pet&t=term#
-background yellow: f2efdf
-dark turq h1: 03a6a6
+  --clr-turquoise-300: #a3d2ca;
+  --clr-turquoise-400: #5eaaa8;
+  --clr-turquoise-800: #03a6a6;
 
-/* Color Theme Swatches in Hex */
-.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-1-hex {
-  color: #03a6a6;
-}
-.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-2-hex {
-  color: #f2efdf;
-}
-.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-3-hex {
-  color: #f2b05e;
-}
-.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-4-hex {
-  color: #f29985;
-}
-.stock-vector-happy-family-father-mother-grandfather-grandmother-children-and-pet-vector-illustration-in-a-657449827-5-hex {
-  color: #d94141;
-}
+  --clr-neutral-100: #ffffff;
+  --clr-neutral-900: #000000;
 
-/*/
-
-/* Fonts 
-font-family: 'Montserrat', sans-serif;
-font-family: 'Rubik', sans-serif;
-*/
+  --ff-primary: "Montserrat", sans-serif;
+  --ff-accent: "Rubik", sans-serif;
+}
 
 body {
+  font-family: var(--ff-primary);
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1 rem;
   background-color: black;
 }
 
 /*TITLE*/
 h1 {
   color: #03a6a6;
-  font-family: "Rubik", sans-serif;
+  font-family: var(--ff-accent);
   font-size: 5rem;
   font-weight: 700;
-
-  margin: 20px 10px;
+  margin: 2rem 1rem;
   text-align: center;
 }
 
 .titleH2 {
   color: whitesmoke;
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  font-family: var(--ff-primary);
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
   text-align: center;
 }
 
 .titleH3 {
   color: whitesmoke;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
-  padding: 0px;
+  font-size: 1rem;
+  padding: 0;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -93,7 +73,8 @@ h1 {
 
 /*SERVICES*/
 h2 {
-  font-family: "Montserrat", sans-serif;
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
   font-size: 3rem;
   margin-top: 2rem;
   text-align: center;
@@ -101,29 +82,41 @@ h2 {
 }
 
 h3 {
-  font-family: "Montserrat", sans-serif;
+  color: var(--clr-neutral-100);
+  font-family: var(--ff-primary);
   font-size: 1.5rem;
   text-align: center;
 }
 
 ul {
-  font-size: 1.5rem;
+  color: var(--clr-neutral-100);
+  font-size: 1rem;
+  line-height:
   list-style: none;
 }
-.darkPink {
-  color: #fc93cf;
-}
 
-.paleYellow {
-  color: #f6e680;
-  margin: 2rem;
-}
-
-.palePink {
-  color: #fde4f7;
-  margin: 2rem;
+.servicesUL {
+  margin-top: 3rem; 
 }
 
 .servicesGraphic {
-  max-width: 50%;
+  max-width: 100%;
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40em) {
+  .split {
+    flex-direction: row;
+  }
+  .split > * {
+    flex-basis: 100%;
+  }
+  /* for anything that has a sibling directly before it, so that the initial sibling isnt affected! */
+  .split > * + * {
+    margin-left: 2em;
+  }
 }
