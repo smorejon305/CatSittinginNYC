@@ -2,7 +2,8 @@
   --clr-pink-200: #fde4f7;
   --clr-pink-400: #fc93cf;
 
-  --clr-yellow-400: #f6e680;
+  --clr-yellow-200: #f8efb3;
+  --clr-yellow-400: #f8efb3;
 
   --clr-turquoise-300: #a3d2ca;
   --clr-turquoise-400: #5eaaa8;
@@ -21,6 +22,26 @@ body {
   font-weight: 400;
   line-height: 1 rem;
   background-color: black;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+}
+
+.bg-turq {
+  color: #000000;
+  background: var(--clr-turquoise-400);
+}
+
+.bg-pink {
+  color: #000000;
+  background: var(--clr-pink-200);
+}
+
+.bg-yellow {
+  color: #000000;
+  background: var(--clr-yellow-200);
 }
 
 /*TITLE*/
@@ -72,31 +93,50 @@ h1 {
 }
 
 /*SERVICES*/
+.bg-turq {
+  color: #000000;
+  background: var(--clr-turquoise-400);
+}
+
+.bg-pink {
+  color: #000000;
+  background: var(--clr-pink-200);
+}
+
+.bg-yellow {
+  color: #000000;
+  background: var(--clr-yellow-200);
+}
+
 h2 {
-  color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-top: 2rem;
+  padding-top: 2.5rem;
   text-align: center;
   text-decoration: underline;
 }
 
 h3 {
-  color: var(--clr-neutral-100);
   font-family: var(--ff-primary);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 ul {
-  color: var(--clr-neutral-100);
-  font-size: 1rem;
-  line-height:
+  font-size: 1.5rem;
+  line-height: 2rem;
+  list-style: none;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+li {
   list-style: none;
 }
 
 .servicesUL {
-  margin-top: 3rem; 
+  margin-top: 3rem;
 }
 
 .servicesGraphic {
@@ -119,4 +159,17 @@ ul {
   .split > * + * {
     margin-left: 2em;
   }
+}
+
+/* About Section */
+.aboutMe {
+  color: #ffffff;
+}
+
+.testimonials {
+  color: #ffffff;
+}
+
+.priceList {
+  color: #ffffff;
 }
