@@ -164,6 +164,20 @@ li {
 /* About Section */
 .aboutMe {
   color: #ffffff;
+  line-height: 2rem;
+  margin-left: 2rem;
+  max-width: 90%;
+  text-align: left;
+}
+
+h4 {
+  font-style: 900;
+  text-decoration: underline;
+}
+
+.aboutMeText {
+  margin-top: 3rem;
+  margin-left: 1rem;
 }
 
 .testimonials {
