@@ -184,11 +184,8 @@ h4 {
 .aboutMeText {
   margin-top: 3rem;
   margin-left: 1rem;
-}
-
-.aboutMePhoto {
-  display: block;
-  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
 }
 
 .testimonials {
