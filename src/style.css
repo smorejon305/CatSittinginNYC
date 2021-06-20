@@ -171,12 +171,7 @@ li {
 .aboutMe {
   color: #ffffff;
   line-height: 2rem;
-  margin-left: 2rem;
   max-width: 90%;
-  text-align: left;
-}
-
-.aboutMePhoto {
 }
 
 h4 {
@@ -190,8 +185,19 @@ h4 {
   margin-left: 1rem;
 }
 
+.aboutMePhoto {
+  display: block;
+  margin: 0 auto;
+}
+
 .testimonials {
   color: #ffffff;
+}
+
+.testimonialsPhoto {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .priceList {
