@@ -33,7 +33,6 @@ body {
 .container {
   margin-inline: auto;
   width: min(90%, 70.5rem);
-  max-width: 100%;
 }
 
 .bg-turq {
@@ -170,9 +169,9 @@ li {
 
 /* About Section */
 .aboutMe {
-  color: #ffffff;
+  background-color: var(--clr-pink-200);
+  color: #000000;
   line-height: 2rem;
-  max-width: 90%;
 }
 
 h4 {
@@ -184,9 +183,16 @@ h4 {
 .aboutMeText {
   margin-top: 3rem;
   margin-left: 1rem;
+  margin-right: 1rem;
   padding-top: 2rem;
-  text-align: center;
+  text-align: justify;
 }
+.aboutMePhoto {
+  display: block;
+  margin: 0 auto;
+}
+
+/*Testimonials*/
 
 .testimonials {
   color: #ffffff;
@@ -198,6 +204,44 @@ h4 {
   max-width: 100%;
 }
 
+.testimonialsH2 {
+  margin-bottom: 2rem;
+}
+.testimonial-clientReview {
+  color: var(--clr-turquoise-300);
+  font-family: var(--ff-primary);
+  font-size: 1rem;
+}
+
+.testimonial-clientName {
+  color: var(--clr-yellow-400);
+  font-family: var(--ff-primary);
+  font-size: 0.5rem;
+}
+
+/*Price List Table */
+
 .priceList {
   color: #ffffff;
+}
+.table {
+  color: var(--clr-neutral-100);
+}
+
+.servicesBtn {
+  background-color: var(--clr-neutral-900);
+  border-radius: 10px;
+  color: var(--clr-turquoise-800);
+}
+
+a {
+  color: var(--clr-turquoise-800);
+}
+
+a:visited {
+  color: var(--clr-turquoise-800);
+}
+
+a:hover {
+  color: var(--clr-pink-400);
 }
