@@ -1,9 +1,12 @@
 :root {
-  --clr-pink-200: #fde4f7;
+  --clr-pink-200: #fad8ea;
+  --clr-pink-300: #ffb9dc;
   --clr-pink-400: #fc93cf;
+  --clr-pink-800: #b05488;
 
-  --clr-yellow-200: #f8efb3;
-  --clr-yellow-400: #f8efb3;
+  --clr-yellow-200: #e7ddaf;
+  --clr-yellow-400: #f4e57e;
+  --clr-yellow-800: #ecd54b;
 
   --clr-turquoise-300: #a3d2ca;
   --clr-turquoise-400: #5eaaa8;
@@ -32,7 +35,7 @@ body {
 
 .container {
   margin-inline: auto;
-  width: min(90%, 70.5rem);
+  width: min(90%, 80rem);
 }
 
 .bg-turq {
@@ -92,31 +95,52 @@ h1 {
   max-width: 100%;
 }
 
+hr.whiteHLine
+
+/*SERVICES*/
+
 .services {
   display: block;
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 100%;
 }
 
-/*SERVICES*/
+.servicesH2 {
+  color: #ffffff;
+}
 .bg-turq {
   color: #000000;
   background: var(--clr-turquoise-400);
+  border-radius: 20px;
+}
+
+.bg-turq:hover {
+  background: var(--clr-turquoise-800);
 }
 
 .bg-pink {
   color: #000000;
   background: var(--clr-pink-200);
+  border-radius: 20px;
+}
+
+.bg-pink:hover {
+  background: var(--clr-pink-400);
 }
 
 .bg-yellow {
   color: #000000;
   background: var(--clr-yellow-200);
+  border-radius: 20px;
+}
+
+.bg-yellow:hover {
+  background: var(--clr-yellow-400);
 }
 
 h2 {
   font-family: var(--ff-primary);
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-top: 2rem;
   padding-top: 2.5rem;
   text-align: center;
@@ -125,7 +149,8 @@ h2 {
 
 h3 {
   font-family: var(--ff-primary);
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
@@ -133,8 +158,6 @@ ul {
   font-size: 1.5rem;
   line-height: 2rem;
   list-style: none;
-  padding-bottom: 2rem;
-  text-align: center;
 }
 
 li {
@@ -169,8 +192,7 @@ li {
 
 /* About Section */
 .aboutMe {
-  background-color: var(--clr-pink-200);
-  color: #000000;
+  color: var(--clr-pink-400);
   line-height: 2rem;
 }
 
