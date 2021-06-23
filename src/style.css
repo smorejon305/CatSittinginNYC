@@ -172,6 +172,52 @@ li {
   max-width: 100%;
 }
 
+/*Price List on Cards */
+
+.price-dogWalking {
+  font-family: var(--ff-accent);
+  font-size: 3rem;
+  font-style: 900;
+  margin-top: 4rem;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.price-dogWalking:hover {
+  color: var(--clr-neutral-100);
+}
+
+.price-catSitting {
+  font-family: var(--ff-accent);
+  font-size: 3rem;
+  font-style: 900;
+  margin-top: 4rem;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.price-catSitting:hover {
+  color: var(--clr-neutral-100);
+}
+
+.price-otherServices {
+  font-family: var(--ff-accent);
+  font-size: 3rem;
+  font-style: 900;
+  margin-top: 4rem;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+}
+.price-otherServices:hover {
+  color: var(--clr-neutral-100);
+}
+
+a {
+  color: var(--clr-neutral-900);
+  text-decoration: none;
+}
+
 .split {
   display: flex;
   flex-direction: column;
@@ -239,31 +285,4 @@ h4 {
   color: var(--clr-yellow-400);
   font-family: var(--ff-primary);
   font-size: 0.5rem;
-}
-
-/*Price List Table */
-
-.priceList {
-  color: var(--clr-neutral-100);
-}
-.table {
-  color: var(--clr-neutral-100);
-}
-
-.servicesBtn {
-  background-color: var(--clr-neutral-900);
-  border-radius: 10px;
-  color: var(--clr-turquoise-800);
-}
-
-a {
-  color: var(--clr-turquoise-800);
-}
-
-a:visited {
-  color: var(--clr-turquoise-800);
-}
-
-a:hover {
-  color: var(--clr-pink-400);
 }
