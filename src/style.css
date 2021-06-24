@@ -25,6 +25,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: var(--ff-primary);
   font-size: 1.5rem;
@@ -102,7 +106,6 @@ hr.whiteHLine
 .services {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
 }
 
 .servicesH2 {
@@ -141,8 +144,8 @@ hr.whiteHLine
 h2 {
   font-family: var(--ff-primary);
   font-size: 3rem;
-  margin-top: 2rem;
-  padding-top: 2.5rem;
+  margin-top: 2em;
+  padding-top: 1.5em;
   text-align: center;
   text-decoration: underline;
 }
@@ -156,7 +159,7 @@ h3 {
 
 ul {
   font-size: 1.5rem;
-  line-height: 2rem;
+  line-height: 2em;
   list-style: none;
 }
 
@@ -174,42 +177,16 @@ li {
 
 /*Price List on Cards */
 
-.price-dogWalking {
+.price-forServices {
+  background-color: red;
   font-family: var(--ff-accent);
-  font-size: 3rem;
-  font-style: 900;
-  margin-top: 4rem;
+  font-size: 1.5em;
+  margin: 1em 10em;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
-.price-dogWalking:hover {
-  color: var(--clr-neutral-100);
-}
-
-.price-catSitting {
-  font-family: var(--ff-accent);
-  font-size: 3rem;
-  font-style: 900;
-  margin-top: 4rem;
-  border: 1px solid;
-  border-radius: 10px;
-  text-align: center;
-}
-.price-catSitting:hover {
-  color: var(--clr-neutral-100);
-}
-
-.price-otherServices {
-  font-family: var(--ff-accent);
-  font-size: 3rem;
-  font-style: 900;
-  margin-top: 4rem;
-  border: 1px solid;
-  border-radius: 10px;
-  text-align: center;
-}
-.price-otherServices:hover {
+.price-forServices:hover {
   color: var(--clr-neutral-100);
 }
 
