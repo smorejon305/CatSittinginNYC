@@ -106,6 +106,9 @@ hr.whiteHLine
 .services {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  padding: 0;
 }
 
 .servicesH2 {
@@ -178,7 +181,6 @@ li {
 /*Price List on Cards */
 
 .price-forServices {
-  background-color: red;
   font-family: var(--ff-accent);
   font-size: 1.5em;
   margin: 1em 10em;
