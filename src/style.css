@@ -16,7 +16,7 @@
   --clr-neutral-900: #000000;
 
   --ff-primary: "Montserrat", sans-serif;
-  --ff-accent: "Rubik", sans-serif;
+  --ff-accent: "Roboto", sans-serif;
 }
 
 *,
@@ -61,8 +61,8 @@ body {
 h1 {
   color: #03a6a6;
   font-family: var(--ff-accent);
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 10em;
+  font-weight: 200;
   margin: 2rem 1rem;
   text-align: center;
 }
@@ -111,9 +111,6 @@ hr.whiteHLine
   padding: 0;
 }
 
-.servicesH2 {
-  color: #ffffff;
-}
 .bg-turq {
   color: #000000;
   background: var(--clr-turquoise-400);
@@ -147,10 +144,9 @@ hr.whiteHLine
 h2 {
   font-family: var(--ff-primary);
   font-size: 3rem;
-  margin-top: 2em;
-  padding-top: 1.5em;
+  padding: 1.5em;
   text-align: center;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h3 {
