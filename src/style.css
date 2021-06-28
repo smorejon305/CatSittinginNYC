@@ -144,7 +144,7 @@ hr.whiteHLine
 h2 {
   font-family: var(--ff-primary);
   font-size: 3rem;
-  padding: 1.5em;
+  padding-top: 1em;
   text-align: center;
   text-decoration: none;
 }
@@ -217,16 +217,17 @@ a {
   line-height: 2rem;
 }
 
-h4 {
-  font-style: 900;
-  text-align: center;
+.titleLi {
+  font-size: 1.5em;
+  font-weight: 600;
+  padding-bottom: 1em;
   text-decoration: underline;
 }
 
 .aboutMeText {
   margin-top: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2em;
+  margin-right: 2em;
   padding-top: 1rem;
   text-align: left;
 }
@@ -244,6 +245,7 @@ h4 {
   color: var(--clr-turquoise-300);
   font-family: var(--ff-primary);
   font-size: 1rem;
+  margin: 2em;
 }
 
 .testimonial-clientName {
