@@ -87,7 +87,7 @@ h1 {
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   h1 {
     font-size: 4em;
     margin: 0 auto;
@@ -112,8 +112,15 @@ h1 {
 }
 
 /* custom divider */
-.pawDivider {
+.pawDivider-header {
   color: darkgray;
+  margin-bottom: 5em;
+  text-align: center;
+}
+
+.pawDivider-page {
+  color: darkgray;
+  margin-top: 5em;
   margin-bottom: 5em;
   text-align: center;
 }
