@@ -59,19 +59,19 @@ body {
 }
 
 /*TITLE*/
+
 h1 {
   color: #03a6a6;
   font-family: var(--ff-accent);
-  font-size: 10em;
+  font-size: 3em;
   font-weight: 200;
-  margin: 2rem 1rem;
+  margin: 0 auto;
   text-align: center;
 }
-
 .titleH2 {
   color: whitesmoke;
   font-family: var(--ff-primary);
-  font-size: 3em;
+  font-size: 2em;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -89,15 +89,15 @@ h1 {
 
 @media (min-width: 600px) {
   h1 {
-    font-size: 4em;
-    margin: 0 auto;
+    font-size: 10em;
   }
+
   .titleH2 {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .titleH3 {
-    font-size: 1em;
+    font-size: 1.8em;
   }
 }
 
@@ -107,38 +107,27 @@ h1 {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  max-height: auto;
   max-width: 100%;
+  max-height: auto;
 }
 
 /* custom divider */
 .pawDivider-header {
-  color: darkgray;
-  margin-bottom: 5em;
-  text-align: center;
-}
-
-.pawDivider-page {
-  color: darkgray;
-  margin-top: 5em;
-  margin-bottom: 5em;
-  text-align: center;
-}
-
-.pawDividerIcon {
+  color: darkgrey;
   font-size: 1em;
-  padding-left: 1em;
+  text-align: center;
+}
+.pawDivider-page {
+  color: darkgrey;
+  font-size: 1em;
+  margin-top: 1.5em;
+  text-align: center;
 }
 
-@media (max-width: 800px) {
-  .pawDividerIcon {
-    font-size: 0.5em;
-  }
-}
-
-@media (max-width: 600px) {
-  .pawDividerIcon {
-    font-size: 0.25em;
+@media (min-width: 600px) {
+  .pawDivider-header {
+    font-size: 3em;
+    padding: 1em;
   }
 }
 
@@ -188,7 +177,7 @@ h1 {
 
 h2 {
   font-family: var(--ff-accent);
-  font-size: 5em;
+  font-size: 2em;
   font-weight: 200;
   padding-top: 1em;
   text-align: center;
@@ -197,14 +186,14 @@ h2 {
 
 h3 {
   font-family: var(--ff-accent);
-  font-size: 2em;
+  font-size: 0em;
   font-weight: 100;
   margin-bottom: 2rem;
   text-align: center;
 }
 
 ul {
-  font-size: 2em;
+  font-size: 0.9em;
   line-height: 2em;
   list-style: none;
 }
@@ -221,7 +210,7 @@ li {
   max-width: 100%;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   h2 {
     font-size: 2em;
   }
@@ -274,7 +263,13 @@ a {
 /* About Section */
 .aboutMe {
   color: var(--clr-neutral-100);
-  line-height: 2rem;
+
+  line-height: 1.5em;
+}
+
+.aboutMeTitle {
+  font-size: 2.5em;
+  margin-bottom: 0;
 }
 
 .titleLi {
@@ -285,7 +280,7 @@ a {
 }
 
 .aboutMeText {
-  font-size: 1.5em;
+  font-size: 0.8em;
   margin-top: 1rem;
   margin-left: 2em;
   margin-right: 2em;
@@ -297,7 +292,7 @@ a {
   font-size: 1em;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
   .aboutMeText {
     font-size: 1em;
     margin-left: 0;
