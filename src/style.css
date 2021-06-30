@@ -308,6 +308,22 @@ a {
   }
 }
 
+.contactButton {
+  background: var(--clr-pink-200);
+  border-radius: 10px;
+  color: var(--clr-turquoise-800);
+  display: block;
+  margin: 0 auto;
+  padding: 1em;
+  text-decoration: none;
+  transition: ease-in-out 150ms;
+}
+
+.contactButton:hover {
+  background: var(--clr-yellow-200);
+  color: var(--clr-turquoise-800);
+}
+
 /*Testimonials*/
 
 .testimonials {
@@ -336,4 +352,8 @@ footer {
   margin-bottom: 1.5rem;
   padding-top: 1.5rem;
   text-align: center;
+}
+
+.whiteLine {
+  color: var(--clr-neutral-100);
 }
