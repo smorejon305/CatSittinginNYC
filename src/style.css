@@ -185,8 +185,9 @@ h2 {
 }
 
 h3 {
+  color: var(--clr-neutral-900);
   font-family: var(--ff-accent);
-  font-size: 0em;
+  font-size: 0.5em;
   font-weight: 100;
   margin-bottom: 2rem;
   text-align: center;
