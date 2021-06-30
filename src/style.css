@@ -267,6 +267,16 @@ a {
   line-height: 1.5em;
 }
 
+.aboutMePhoto {
+  border-radius: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  max-width: 50%;
+  max-height: auto;
+}
+
 .aboutMeTitle {
   font-size: 2.5em;
   margin-bottom: 0;
@@ -314,16 +324,25 @@ a {
   color: var(--clr-turquoise-800);
   display: block;
   margin: 0 auto;
+  margin-bottom: 2.5em;
   padding: 1em;
   text-decoration: none;
   transition: ease-in-out 150ms;
 }
 
 .contactButton:hover {
-  background: var(--clr-yellow-200);
-  color: var(--clr-turquoise-800);
+  background: var(--clr-turquoise-300);
+  color: var(--clr-pink-800);
 }
 
+.contactButtonLink {
+  text-decoration: none;
+  color: var(--clr-turquoise-800);
+}
+.contactButtonLink:hover {
+  text-decoration: none;
+  color: var(--clr-pink-800);
+}
 /*Testimonials*/
 
 .testimonials {
