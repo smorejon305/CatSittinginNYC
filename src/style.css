@@ -298,7 +298,9 @@ a {
 }
 
 .aboutMeText {
+  font-family: var(--ff-primary);
   font-size: 0.8em;
+  line-height: 1.5em;
   margin-top: 1rem;
   margin-left: 2em;
   margin-right: 2em;
@@ -313,6 +315,7 @@ a {
 @media (min-width: 600px) {
   .aboutMeText {
     font-size: 1em;
+    line-height: 2em;
     margin-left: 0;
     margin-right: 0;
   }
