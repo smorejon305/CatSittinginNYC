@@ -355,6 +355,7 @@ a {
 
 .testimonials {
   color: #ffffff;
+  font-size: 1em;
 }
 
 .testimonialsH2 {
@@ -363,14 +364,31 @@ a {
 .testimonial-clientReview {
   color: var(--clr-turquoise-300);
   font-family: var(--ff-primary);
-  font-size: 1rem;
+  font-size: 1em;
   margin: 2em;
 }
 
 .testimonial-clientName {
   color: var(--clr-yellow-400);
   font-family: var(--ff-primary);
-  font-size: 0.5rem;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.starIcon {
+  color: var(--clr-yellow-800);
+}
+.moreReviews {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.reviewLink {
+  color: var(--clr-turquoise-400);
+}
+
+.reviewLink:hover {
+  color: var(--clr-pink-400);
 }
 
 footer {
