@@ -329,6 +329,7 @@ a {
   background: var(--clr-pink-200);
   border-radius: 10px;
   color: var(--clr-turquoise-800);
+  font-family: var(--ff-accent);
   display: block;
   margin: 0 auto;
   margin-bottom: 2.5em;
