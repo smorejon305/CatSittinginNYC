@@ -368,10 +368,15 @@ a {
   margin: 2em;
 }
 
+.boneIcon {
+  color: var(--clr-yellow-400);
+  font-size: 0.5em;
+}
+
 .testimonial-clientName {
   color: var(--clr-yellow-400);
   font-family: var(--ff-primary);
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: right;
 }
 
