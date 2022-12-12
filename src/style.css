@@ -43,14 +43,20 @@ body {
   width: min(90%, 80rem);
 }
 
+.serviceCard{
+  margin: 2em; 
+}
+
 .bg-turq {
   color: #000000;
   background: var(--clr-turquoise-400);
+
 }
 
 .bg-pink {
   color: #000000;
   background: var(--clr-pink-200);
+
 }
 
 .bg-yellow {
